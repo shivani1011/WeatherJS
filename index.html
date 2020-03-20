@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>  
+  <script src="skycons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body id="body">
+    <h1 id="head">Current Weather</h1>
+    <div class="outerContainer">
+        <div class="innerContainer1">
+            <h2 id="head2">Enter city</h2>
+            <input type="text" id="inputCity" style="width: 100%; text-align: center;font-size: 15px" placeholder="City name" >
+            <button class="btn btn-primary btn-block" id="btn1">submit</button>
+         
+        </div>
+        <div class="innerContainer2">
+            <div class="upperContainer">
+                    <canvas id="icon1" width="138" height="138"></canvas>
+
+            </div>
+            <hr>
+            <div class="lowerContainer">
+                <p id="temp">Temperature: </p>  
+                <p id="status">Status: </p> 
+                <p id="summary">Summary: </p>
+                <p id="windspeed">Wind Speed: </p>
+                <p id="visibility">Visibility: </p>
+                <p id="humidity">Humidity: </p>
+               
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
